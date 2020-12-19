@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta content="text/html;charset="utf-8" http-equiv ="content-type">
+    <title>HealthBot</title>
+    <link rel="stylesheet" type="text/css" href="../static/styles.css" />
+  </head>
+  <body>
+    <div id = "page-header">
+      <img src="../static/images/final_logo.gif" width="300" height="120">
+			<h1><a href="/">Virtual Consultation</a></h1>
+		</div>
+    <div id="main-page">
+      <div id = "main-content">
+        <main>
+          <h4>What you Should know about COVID 19?</h4>
+            <ul>
+              <li>Coronavirus (COVID-19) is an illness caused by a virus that can spread from person to person.</li>
+              <li>The virus that causes COVID-19 is a new coronavirus that has spread throughout the world. </li>
+              <li>COVID-19 symptoms can range from mild (or no symptoms) to severe illness.</li>
+            </ul>
+            <h4>Know how COVID-19 is spread?</h4>
+              <ul>
+                <li>You can become infected by coming into close contact (about 6 feet or two arm lengths) with a person who has COVID-19. COVID-19 is primarily spread from person to person.</li>
+                <li>You can become infected from respiratory droplets when an infected person coughs,sneezes, or talks.</li>
+                <li>You may also be able to get it by touching a surface or object that has the virus on it, and then by touching your mouth, nose, or eyes.</li>
+              </ul>
+              <h4>Practice social distancing</h4>
+                <ul>
+                  <li>Buy groceries and medicine,go to the doctor, and complete banking activities online when possible.</li>
+                  <li>If you must go in person,stay at least 6 feet away from others and disinfect items you must touch.</li>
+                </ul>
+                <h4>Protect yourself and others from COVID-19</h4>
+                  <ul>
+                    <li>There is currently no vaccine to protect against COVID-19. The best way to protect yourself is to avoid being exposed to the virus that causes COVID-19.</li>
+                    <li>Stay home as much as possible and avoid close contact with others.</li>
+                    <li>Wear a cloth face covering that covers your nose and mouth in public settings.</li>
+                  </ul>
+        </main>
+        <aside class="page-Asidedown2">
+          <img src="../static/images/doc.gif" >
+          <h4>Health Concern?</h4>
+          <p>To know if you have Normal flu or Suspect of COVID, we can assist you in diagnosing the same. Please use our online chat service</p>
+          <nav id = "chatbot">
+            <a href="javascript:;" onclick="openURLInWindow()">
+               <img alt="ask here" src="../static/images/chatIcon.jpg">
+            </a>
+          </nav>
+          <a href="javascript:;" onclick="openURLInWindow()"> Ask Here  </a>
+        </aside>
+      </div>
+  </body>
+  <script>
+    function openURLInWindow(){
+    window.open("/chatbot", "myWindow", "top=30, left=400,width=600,height=700");
+    }
+  </script>
+</html>

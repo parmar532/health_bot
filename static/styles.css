@@ -1,0 +1,93 @@
+  html {
+  height: 100%;
+  color: black;
+  }
+
+  body {
+  margin:0;
+  padding:0;
+  font-family: Verdana, Geneva, sans-serif;
+  }
+
+  a {
+  text-decoration:none;
+  }
+
+  #page-header h1{
+    float: left;
+    width:800px;
+    padding:40px 80px;
+    text-align: center;
+    background-color:DodgerBlue;
+    border-bottom:1px solidgray;
+    border-right: 1px solid #eee;
+    border-top: 10px;
+  }
+  div img{
+    float: left;
+    border-top: 10px;
+    width:300px;
+  }
+  #page-header h1 a{
+    color:white;
+  }
+  #main-content h4 {
+    text-align: left;
+    background-color:lightgray;
+    border-bottom:1px solidgray;
+    max-width: 1000px;
+    border: 2px solid green;
+    padding: 1px;
+    margin: 5px;
+
+  }
+  #main-content li {
+    max-width:1000px;
+    margin: left;
+  }
+  main{
+    float: left;
+    max-width:1000px;
+    border-right: 1px solid #eee;
+    border-left: 10px solid #eee;
+  }
+  aside{
+    float: left;
+    max-width:260px;
+    border-right: 1px solid #eee;
+  }
+aside img{
+  float: left;
+  padding-left: 10px;
+  padding-top: 10px;
+  border-top: 10px;
+  height: 250px;
+  max-width:220px;
+}
+aside h4{
+  float: center;
+  padding-top: 40px;
+  padding-right: 40px;
+  max-width:1000px;
+  height: auto;
+}
+aside p {
+  float: left;
+  padding-left: 20px;
+  padding-top: 1px;
+  max-width:220px;
+  margin: left;
+}
+#chatbot img{
+  float: left;
+  height: 100px;
+  padding-top: 1px;
+  padding-left: 20px;
+  max-width: 100px;
+}
+aside li{
+  float: left;
+  padding-top: 1px;
+  padding-left: 100px;
+  max-width: 50px;
+}
