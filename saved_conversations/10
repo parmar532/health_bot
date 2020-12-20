@@ -1,1 +1,7 @@
 bot : Hi There! I am a medical chatbot. You can begin conversation by typing in a message and pressing enter.
+user : hi
+bot : - Hello. How are you feeling today?
+user : corona
+bot : - Please don't panic. Can you please help us understand your symptoms. Is you body temperature 1. High (more than 102) 2. Medium (Between 98.6 to 102) 3. Normal (96 to 98.6) (Body temperature in degrees Fahrenheit)
+user : medium
+bot : - Symptom Noted. Please try to take a dose of crocin after meals. Are you having Cough
